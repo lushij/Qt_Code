@@ -1,0 +1,8 @@
+﻿  Reading Qt configuration (R:/Qt/Qt5.14.2/5.14.2/msvc2017/bin/qmake)
+  Generate moc_predefs.h
+  Uic'ing mainwindow.ui...
+  Moc'ing mainwindow.h...
+  main.cpp
+  mainwindow.cpp
+  moc_mainwindow.cpp
+  day01.vcxproj -> D:\Qt_Code\day01\debug\day01.exe
