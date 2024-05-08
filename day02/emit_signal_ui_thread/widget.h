@@ -1,0 +1,24 @@
+#ifndef WIDGET_H
+#define WIDGET_H
+
+#include <QWidget>
+#include "thread.h"
+QT_BEGIN_NAMESPACE
+namespace Ui { class Widget; }
+QT_END_NAMESPACE
+
+class Widget : public QWidget
+{
+    Q_OBJECT
+
+public:
+    Widget(QWidget *parent = nullptr);
+    ~Widget();
+private slots:
+    //槽函数
+    void on_btnUpdate_clicked();
+     void show_info(Score sc);
+private:
+    Ui::Widget *ui;
+};
+#endif // WIDGET_H
